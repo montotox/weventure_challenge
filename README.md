@@ -1,6 +1,6 @@
 # WEVENTURE Coding Challenge
 
-Visit the [Demo](https://instotox.netlify.app).
+Visit the [Demo](https://montotox.github.io/weventure_challenge/).
 
 ## Starting 🚀
 
