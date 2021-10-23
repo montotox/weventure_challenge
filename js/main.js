@@ -47,9 +47,12 @@ app.innerHTML = tasks
   })
   .join("");
 
+// Check value in input
+var field = $("#input").val();
+
 // Create new task
 $("input").keypress(function (event) {
-  if (event.which === 13) {
+  if ((event.which === 13) & (field != 0)) {
     var toDoText = $(this).val();
     $(this).val("");
     $("ul").append(
